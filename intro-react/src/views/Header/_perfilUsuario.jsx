@@ -1,11 +1,11 @@
 import React from 'react'
 
-const _perfilUsuario = ({usuario}) => {
+const _perfilUsuario = ({ usuario }) => {
   return (
     <div className='perfilUsuario'>
 
       <button>
-      <span className="fa fa-user-circle"></span> <span>{usuario}</span>
+        <span className="fa fa-user-circle"></span> <span>{usuario}</span>
       </button>
 
       <button>
