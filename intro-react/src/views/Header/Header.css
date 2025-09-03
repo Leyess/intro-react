@@ -54,12 +54,7 @@
 }
 
 .buscador input[type="text"]:focus {
-    border: 0;
     outline: none;
-    border-bottom: solid 2px salmon;
-    background-color: rgb(255, 255, 255);
-    font-weight: bold;
-    color: black;
 }
 
 .navegacion {
