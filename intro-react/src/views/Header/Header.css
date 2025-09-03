@@ -1,19 +1,18 @@
-.header{
-   background: linear-gradient(to top,black,rgb(106, 106, 240));
+.header {
+    background: linear-gradient(to top, black, rgb(106, 106, 240));
     color: white;
     padding: 1em 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
     width: 1000px;
     height: 40vh;
 }
 
-
-.Logo{
+.Logo {
     font-size: 3em;
 }
 
-.icono{
+.icono {
     height: 3em;
     width: 3em;
     display: grid;
@@ -23,7 +22,7 @@
     padding: 0.2em;
 }
 
-.buscador{
+.buscador {
     display: flex;
     align-items: center;
     background-color: rgb(255, 255, 255);
@@ -34,7 +33,8 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.buscador input[type="text"]{
+
+.buscador input[type="text"] {
     height: 2em;
     width: 15em;
     border: none;
@@ -46,7 +46,7 @@
 
 }
 
-.buscador input[type="text"]:focus{
+.buscador input[type="text"]:focus {
     border: 0;
     outline: none;
     border-bottom: solid 2px salmon;
@@ -55,7 +55,7 @@
     color: black;
 }
 
-.navegacion{
+.navegacion {
     display: flex;
     justify-content: space-between;
     align-items: center;
