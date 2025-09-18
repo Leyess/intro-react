@@ -1,4 +1,4 @@
-import Header from './views/Header/Header'
+import Header from './components/Landing/Header/Header.jsx'
 import './App.css'
 
 function App() {
