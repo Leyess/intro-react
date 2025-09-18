@@ -6,7 +6,7 @@ const _perfilUsuario = ({ usuario }) => {
 
       <button>
         <span className="fa fa-user-circle"></span> <span>{usuario}</span>
-      </button>
+      </button> 
 
       <button>
         <span className='fa fa-caret-down'></span>
